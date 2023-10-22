@@ -1,0 +1,13 @@
+nr#name#src-einfach#dst-einfach#src-eingespielt#dst-eingespielt
+inc#str#int#int#int#int
+#####
+1#Anton Elsdorf#1#0#0#0
+2#Berta Plankenbach#0#1#0#0
+3#Cäsar Rappoltenberg#1#0#0#0
+4#Kommando Dietersbach#0#1#0#0
+5#Feuerwehr Röhrenkirchen#0#0#0#0
+6#Rüstlösch Elsdorf#0#0#0#0
+7#Anton Plankenbach#0#1#0#0
+8#Berta Rappoltenberg#1#0#0#0
+9#Cäsar Dietersbach#0#0#0#0
+10#Kommando Röhrenkirchen#0#0#0#0

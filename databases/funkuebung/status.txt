@@ -1,0 +1,6 @@
+key#value
+str#str
+#
+TMO-DMO#TMO
+Sprechgruppe#TULLN/TU Ausweich 1
+Sprechgruppenwechsel#1697998141
