@@ -28,8 +28,10 @@ $pois=array(
   "alten Feuerwehrhaus"=>"neutrum",
   "neuen Feuerwehrhaus"=>"neutrum",
   "Kirche"=>"femininum",
+  "Tankstelle"=>"femininum",
   "Kaufhaus"=>"neutrum",
   "Gemeindemt"=>"neutrum",
+  "Bauhof"=>"neutrum",
 );
 $zur=array("masculinum"=>"zum","femininum"=>"zur","neutrum"=>"zum");
 
@@ -73,15 +75,16 @@ keine weiteren Feuerwehrkräfte erforderlich sind. Weiters wird eine Entsorgungs
 $texte[]="Melden Sie an %other, dass die Straße total gesperrt werden muss, 
 weil der Notarzt – Hubschrauber in kürze landet und außerdem soll die Straßenmeisterei zum Unfallort kommen.";
 
-$texte[]="Befehlen Sie %other, dass Sie zur Pressbaumerstraße ".rand(150,350)." fahren sollen. 
+$texte[]="Befehlen Sie %other, dass Sie zur Pressbaumerstraße ".rand(10,99)." fahren sollen. 
 Sie werden dort bei einem Brandeinsatz zur Beleuchtung des Einsatzortes benötigt.";
 $texte[]="Befehlen Sie %other, den Autoschlüssel des verunfallten PKW zum Polizeiposten Sieghartskirchen zu bringen.";
 $texte[]="Befehlen Sie %other, bei Firma Herbert Gutscher 200 kg Ölbindemittel abzuholen und ins Feuerwehrhaus zu bringen.";
-$texte[]="Befehlen Sie %other, sich zur Tankstelle Hold zu begeben.";
+$texte[]="Befehlen Sie %other, sich zur Tankstelle zu begeben.";
 
 $texte[]="Fordern Sie bei %other eine weitere TS an.";
 $texte[]="Fordern Sie bei %other eine Unterwasserpumpe an.";
 $texte[]="Fordern Sie bei %other eine Dreheiter an.";
+$texte[]="Fordern Sie bei %other einen Druckbelüfter an.";
 $texte[]="Fordern Sie bei %other einen weiteren Atemschutztrupp an.";
 $texte[]="Fordern Sie bei %other Unterstützung bei der Brandbekämpfung von der Südseite her an.";
 $texte[]="Fordern Sie bei %other eine weitere Motorkettensäge an.";
@@ -97,13 +100,12 @@ $texte[]="Informieren sie %other, dass noch ein Trupp mit hydraulischen Rettungs
 fragen sie nach ob die Polizei schon unterwegs ist.";
 
 $texte[]="Geben sie eine Lagemeldung an %other: Wirtschaftsgebäude und Maschinenhalle abgebrannt, 
-Wohnhaus gerettet, 23 Rinder gerettet, 8 Rinder verendet. Der Einsatz wird noch bis ca. 16:30 Uhr andauern.";
-$texte[]="Geben Sie eine Lagemeldung an %other: ".rand(3,4)." eingeklemmte Personen in 2 PKW, 
+Wohnhaus gerettet, ".rand(15,25)." Rinder gerettet, ".rand(4,9)." Rinder verendet. Der Einsatz wird noch bis ca. 16:30 Uhr andauern.";
+$texte[]="Geben Sie eine Lagemeldung an %other: 3 eingeklemmte Personen in 2 PKW, 
 2 bereits befreit an 3ter Person wird noch gearbeitet. 2 Notarztteams vor Ort. Straße bis auf weiteres gesperrt.";
 
 foreach($texte as $text) {
   $moegliche_befehle[]="<b>SRC:</b><br>".str_replace('%other','<u>DST</u> <i>im TYPE Funkgespräch</i>',$text);
 }
-
 
 ?>
