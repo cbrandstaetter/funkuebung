@@ -240,15 +240,20 @@ function show_befehl_stats($db,$hilight=-1) {
   $sql="SELECT * FROM befehle ORDER BY nr";
   $resultSet=$db->executeQuery($sql);
   echo '<table border=1 cellpadding="1" cellspacing="0">';
+  //$befehlanzahl=$resultSet->getRowCount();
+  //echo '<tr><th>'.$befehlanzahl.' Befehle:</th>';
   echo '<tr><th>Befehle:</th>';
+  $count=0;
   while($resultSet->next()) {
     $bgcolor="white";
     if($resultSet->getCurrentValueByName("nr")==$hilight)
       $bgcolor="Orange";
     echo '<td bgcolor="'.$bgcolor.'" align="'.$align.'">'.str_replace(" ","&nbsp;",$resultSet->getCurrentValueByName("anzahl"))."</td>\n";
+	$count++;
   }
   echo '</tr>';
   echo '</table>';
+//  echo $count;
 }
 
 ?>

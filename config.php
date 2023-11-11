@@ -59,6 +59,7 @@ $texte[]="Teilen Sie %other mit, dass der aktuelle Brand nur ein Kleinbrand in d
 $texte[]="Teilen Sie %other mit, dass der erste Atemschutztrupp bereits im Einsatz ist und ein weiterer Trupp benötigt wird.";
 $texte[]="Teilen Sie %other mit, dass Sie zu ihnen unterwes sind und Fragen Sie nach dem Anfahrtsweg.";
 $texte[]="Teilen Sie %other mit, dass zum Brandobjekt nur der Anfahrtsweg von Seite Firma Kern her möglich ist.";
+$texte[]="Teilen Sie %other mit, dass Sie zur Bergung des verunfallten Traktors noch eine zusätzliche Umlenkrolle notwendig ist.";
 
 $texte[]="Melden Sie an %other, dass Sie am Einsatzort eingetroffen sind. 
 Die eingeklemmte Person konnte sich von selbst befreien. PKW sind ineinander verkeilt. Benzin läuft aus.";
@@ -80,13 +81,27 @@ Sie werden dort bei einem Brandeinsatz zur Beleuchtung des Einsatzortes benötig
 $texte[]="Befehlen Sie %other, den Autoschlüssel des verunfallten PKW zum Polizeiposten Sieghartskirchen zu bringen.";
 $texte[]="Befehlen Sie %other, bei Firma Herbert Gutscher 200 kg Ölbindemittel abzuholen und ins Feuerwehrhaus zu bringen.";
 $texte[]="Befehlen Sie %other, sich zur Tankstelle zu begeben.";
+$texte[]="Befehlen Sie %other, sich zum Hauptplatz zu begeben und bei der Ausleuchtung der Unfallstelle zu unterstützen.";
+$texte[]="Befehlen Sie %other, sich zum Feuerwehrhaus zu begeben und 12 Pressluft-Ersatzflaschen zum Einsatzort zu bringen.";
+$texte[]="Befehlen Sie %other, von der Feuerwehschule 5 weitere Kanister Schaummittel abzuholen.";
 
 $texte[]="Fordern Sie bei %other eine weitere TS an.";
+$texte[]="Fordern Sie bei %other eine Krankentrage an.";
+$texte[]="Fordern Sie bei %other eine Unterwasserpumpe an.";
+$texte[]="Fordern Sie bei %other eine Bogensäge an.";
+$texte[]="Fordern Sie bei %other eine Wärmebildkamera an.";
 $texte[]="Fordern Sie bei %other eine Unterwasserpumpe an.";
 $texte[]="Fordern Sie bei %other eine Dreheiter an.";
+$texte[]="Fordern Sie bei %other eine Feuerwehraxt.";
 $texte[]="Fordern Sie bei %other einen Druckbelüfter an.";
+$texte[]="Fordern Sie bei %other einen Bolzenschneider an.";
+$texte[]="Fordern Sie bei %other einen 5 Tonnen Greifzug an.";
 $texte[]="Fordern Sie bei %other einen weiteren Atemschutztrupp an.";
-$texte[]="Fordern Sie bei %other Unterstützung bei der Brandbekämpfung von der Südseite her an.";
+$texte[]="Fordern Sie bei %other ein weiteres Absperrband.";
+$texte[]="Fordern Sie bei %other drei weiter Einreisshaken an.";
+$himmelsrichtungen=array("Nord","Süd","West","Ost");
+foreach($himmelsrichtungen as $himmelsrichtung)
+  $texte[]="Fordern Sie bei %other Unterstützung bei der Brandbekämpfung von der ".$himmelsrichtung."seite her an.";
 $texte[]="Fordern Sie bei %other eine weitere Motorkettensäge an.";
 $texte[]="Fordern Sie bei %other Unterstützung durch den Notarzt an. Kamerad Huber hat sich beim Arbeiten mit der Motorkettensäge verletzt.";
 $texte[]="Fordern Sie bei %other eine weitere Unterwasserpumpe an.";
